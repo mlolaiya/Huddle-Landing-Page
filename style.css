@@ -174,26 +174,29 @@ footer .circle {
     text-decoration: none;   
 }
 
-/* .description ul li{
+.description ul li {
     display: flex;
-    margin-left: 20px;
-    padding-right: 2px;
+}
+
+.loc {
+    font-size: 100px;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 ion-icon {
-    display: flex;
-    text-align: center;
-    font-size: 120%;
-    margin-right: 40PX;
+    font-size: 30px;
+    margin-right: 20PX;
+    float: left;
   }
- */
+
 footer p {
     text-align: right;
     margin: 0;
 }
 
 /*------RESPONSIVE MEDIA --------- */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
     body {
         text-align: center;
     }
