@@ -47,31 +47,12 @@ p {
     opacity: 0.5px;
 }
 
-/*------BUTTON STYLING --------- */
-.btn {
-    border-radius: 50px;
-    background-color: #fff;
-    border: none; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 700;
-    padding: 15px 60px;
-
-}
-
-
-.btn-primary {
-    background-color: hsl(322, 100%, 66%);
-    color: #fff;
-}
-
 /*------MAIN CONTAINER --------- */
 .container {
     padding: 0 20px;
     margin: 0 auto;
     max-width: 100%;
-    width: 1000px;
+    width: 1400px;
 }
 
 .center {
@@ -112,13 +93,14 @@ p {
 .small-box {
     display: inline-block;
     position: relative;
-    margin-bottom: -50px;
+    margin-bottom: -150px;
     z-index: 1;
  
 }
 
 
 /*------BUTTON STYLING --------- */
+
 .btn {
     border-radius: 50px;
     background-color: #fff;
@@ -136,6 +118,50 @@ p {
     background-color: hsl(322, 100%, 66%);
     color: #fff;
 }
+.btn {
+    border-radius: 50px;
+    background-color: #fff;
+    border: none; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 60px;
+
+}
+
+.btn-nav {
+    border-radius: 50px;
+    background-color: #fff;
+    border: none; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 60px;
+}
+
+.btn-nav:hover {
+    color: hsl(193, 8%, 53%);
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color:hsl(320, 87%, 74%);
+}
+
+.btn-primary {
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+}
+
+
+
+/*------ STYLING FOOTER  --------- */
 
 footer {
     background-color: hsl(192, 100%, 9%);
@@ -143,8 +169,6 @@ footer {
     padding: 180px 0 60px;
    
 }
-
-/*------ STYLING FOOTER LIST --------- */
 
 footer ul {
     list-style-type: none;
@@ -176,12 +200,17 @@ footer .circle {
 
 .description ul li {
     display: flex;
+    
 }
 
-.loc {
-    font-size: 100px;
-    margin-top: 0;
-    padding-top: 0;
+.description {
+    margin-right: 50px;
+    padding-right: 50px;
+}
+
+.hud-icon {
+    margin-left: 0;
+    display: flex-start;
 }
 
 ion-icon {
@@ -193,6 +222,7 @@ ion-icon {
 footer p {
     text-align: right;
     margin: 0;
+    padding-right: 20px;
 }
 
 /*------RESPONSIVE MEDIA --------- */
